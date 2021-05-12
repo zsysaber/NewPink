@@ -13,6 +13,11 @@
 		DA0EBA5E2648B9B500673EC8 /* NewPink.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DA0EBA5C2648B9B500673EC8 /* NewPink.xcdatamodeld */; };
 		DA0EBA602648B9B600673EC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA0EBA5F2648B9B600673EC8 /* Assets.xcassets */; };
 		DA0EBA632648B9B600673EC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA0EBA612648B9B600673EC8 /* LaunchScreen.storyboard */; };
+		DA0EBA6B264B9B6900673EC8 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0EBA6A264B9B6900673EC8 /* Home.swift */; };
+		DA0EBA6D264B9B7B00673EC8 /* Shopping.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0EBA6C264B9B7B00673EC8 /* Shopping.swift */; };
+		DA0EBA6F264B9BAC00673EC8 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0EBA6E264B9BAC00673EC8 /* Post.swift */; };
+		DA0EBA71264B9BC300673EC8 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0EBA70264B9BC300673EC8 /* Message.swift */; };
+		DA0EBA73264B9BCC00673EC8 /* Me.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0EBA72264B9BCC00673EC8 /* Me.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		DA0EBA5F2648B9B600673EC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA0EBA622648B9B600673EC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA0EBA642648B9B600673EC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA0EBA6A264B9B6900673EC8 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		DA0EBA6C264B9B7B00673EC8 /* Shopping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shopping.swift; sourceTree = "<group>"; };
+		DA0EBA6E264B9BAC00673EC8 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		DA0EBA70264B9BC300673EC8 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		DA0EBA72264B9BCC00673EC8 /* Me.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Me.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +73,11 @@
 				DA0EBA612648B9B600673EC8 /* LaunchScreen.storyboard */,
 				DA0EBA642648B9B600673EC8 /* Info.plist */,
 				DA0EBA5C2648B9B500673EC8 /* NewPink.xcdatamodeld */,
+				DA0EBA6A264B9B6900673EC8 /* Home.swift */,
+				DA0EBA6C264B9B7B00673EC8 /* Shopping.swift */,
+				DA0EBA6E264B9BAC00673EC8 /* Post.swift */,
+				DA0EBA70264B9BC300673EC8 /* Message.swift */,
+				DA0EBA72264B9BCC00673EC8 /* Me.swift */,
 			);
 			path = NewPink;
 			sourceTree = "<group>";
@@ -139,7 +154,12 @@
 			files = (
 				DA0EBA5E2648B9B500673EC8 /* NewPink.xcdatamodeld in Sources */,
 				DA0EBA542648B9B500673EC8 /* AppDelegate.swift in Sources */,
+				DA0EBA6B264B9B6900673EC8 /* Home.swift in Sources */,
+				DA0EBA6F264B9BAC00673EC8 /* Post.swift in Sources */,
 				DA0EBA562648B9B500673EC8 /* SceneDelegate.swift in Sources */,
+				DA0EBA73264B9BCC00673EC8 /* Me.swift in Sources */,
+				DA0EBA6D264B9B7B00673EC8 /* Shopping.swift in Sources */,
+				DA0EBA71264B9BC300673EC8 /* Message.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +309,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4382UUDHW6;
 				INFOPLIST_FILE = NewPink/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +329,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4382UUDHW6;
 				INFOPLIST_FILE = NewPink/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

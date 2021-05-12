@@ -3,38 +3,39 @@
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item 2-->
+        <!--Shopping-->
         <scene sceneID="lyW-Nu-xoM">
             <objects>
-                <viewController id="lBY-gI-bBk" sceneMemberID="viewController">
+                <viewController id="lBY-gI-bBk" customClass="Shopping" customModule="NewPink" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wKA-2d-5ns">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="JF9-Dv-0mF"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="q9A-1Q-AQM"/>
+                    <tabBarItem key="tabBarItem" title="Shopping" image="cart.fill" catalog="system" selectedImage="cart" id="q9A-1Q-AQM"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-sM-Ts7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="754" y="-257"/>
         </scene>
-        <!--Item-->
+        <!--Message-->
         <scene sceneID="xTA-ow-nuK">
             <objects>
-                <viewController id="hq0-fW-vJ8" sceneMemberID="viewController">
+                <viewController id="hq0-fW-vJ8" customClass="Message" customModule="NewPink" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Tyd-V1-5d2">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="oWu-Tl-8rH"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="1pR-1B-gMf"/>
+                    <tabBarItem key="tabBarItem" title="Message" image="message.fill" catalog="system" selectedImage="message" id="1pR-1B-gMf"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IpE-Ku-4lR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -43,14 +44,14 @@
         <!--Home-->
         <scene sceneID="47q-Hl-Luc">
             <objects>
-                <viewController id="eVb-h2-oO2" sceneMemberID="viewController">
+                <viewController id="eVb-h2-oO2" customClass="Home" customModule="NewPink" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="VP6-w7-oo1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="jYM-aA-VLa"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Home" selectedImage="house.fill" catalog="system" id="RG0-sQ-5KK"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="house.fill" catalog="system" selectedImage="house" id="RG0-sQ-5KK"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n7h-gh-bU3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -64,6 +65,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" name="TintPInk"/>
                     </tabBar>
                     <connections>
                         <segue destination="eVb-h2-oO2" kind="relationship" relationship="viewControllers" id="Bh1-7l-qiu"/>
@@ -77,33 +80,33 @@
             </objects>
             <point key="canvasLocation" x="-1632" y="1292"/>
         </scene>
-        <!--Item-->
+        <!--Post-->
         <scene sceneID="7nO-hR-jAk">
             <objects>
-                <viewController id="kZP-Z3-OjD" sceneMemberID="viewController">
+                <viewController id="kZP-Z3-OjD" customClass="Post" customModule="NewPink" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="E1l-ia-kNn">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="rnq-Zs-sFg"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="Jvs-nf-AGH"/>
+                    <tabBarItem key="tabBarItem" title="Post" image="plus.rectangle.fill" catalog="system" selectedImage="plus.rectangle" id="Jvs-nf-AGH"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nYX-bW-6Ji" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="754" y="428"/>
         </scene>
-        <!--Item-->
+        <!--Me-->
         <scene sceneID="TRb-Xh-WzT">
             <objects>
-                <viewController id="SUF-oO-Qeh" sceneMemberID="viewController">
+                <viewController id="SUF-oO-Qeh" customClass="Me" customModule="NewPink" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Q52-YH-IXw">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="8xm-2a-BFT"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="MU6-s5-7Tu"/>
+                    <tabBarItem key="tabBarItem" title="Me" image="person.fill" catalog="system" selectedImage="person" id="MU6-s5-7Tu"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jim-yc-YzG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -111,7 +114,19 @@
         </scene>
     </scenes>
     <resources>
+        <image name="cart" catalog="system" width="128" height="102"/>
+        <image name="cart.fill" catalog="system" width="128" height="102"/>
+        <image name="house" catalog="system" width="128" height="106"/>
         <image name="house.fill" catalog="system" width="128" height="106"/>
+        <image name="message" catalog="system" width="128" height="113"/>
+        <image name="message.fill" catalog="system" width="128" height="113"/>
+        <image name="person" catalog="system" width="128" height="117"/>
+        <image name="person.fill" catalog="system" width="128" height="120"/>
+        <image name="plus.rectangle" catalog="system" width="128" height="93"/>
+        <image name="plus.rectangle.fill" catalog="system" width="128" height="93"/>
+        <namedColor name="TintPInk">
+            <color red="0.92941176470588238" green="0.50980392156862742" blue="0.58039215686274515" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
